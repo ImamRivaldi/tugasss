@@ -10,5 +10,9 @@ package tugasss;
  * @author ACER
  */
 public class TransportUdara {
-    
+    String jenis;
+    String kelas;
+    int jmlkursi;
+    int jmlawak;
+    String warna;
 }
