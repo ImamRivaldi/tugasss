@@ -32,5 +32,17 @@ public class Aksi {
         System.out.println(TU.getJmlawak());
         System.out.print("Warnanya \t: ");
         System.out.println(TU.getWarna());
+        System.out.println("==================================");
+        
+        Pesawat GI = new Pesawat();
+        GI.setJenis("Airbus A330");
+        GI.setKelas("Economy");
+        GI.setJmlkursi(50);
+        GI.setJmlawak(80);
+        GI.setWarna("Putih dan Biru");
+        GI.setMaskapai("Garuda Indonesia");
+        GI.cetakInfo();
+        System.out.println("Maskapai \t:"+GI.getMaskapai());
+        GI.throttle();
     }
 }
