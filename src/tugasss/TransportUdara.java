@@ -15,4 +15,6 @@ public class TransportUdara {
     int jmlkursi;
     int jmlawak;
     String warna;
+    
+    
 }
