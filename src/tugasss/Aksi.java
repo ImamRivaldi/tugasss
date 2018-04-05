@@ -11,6 +11,14 @@ package tugasss;
  */
 public class Aksi {
     public static void main(String[] args) {
+        TransportUdara TU = new TransportUdara();
         
+        TU.jenis = "Airbus 747";
+        TU.kelas = "First Class";
+        TU.jmlkursi = 30;
+        TU.jmlawak = 50;
+        TU.warna = "Putih Pink";
+        
+        TU.cetakInfo();
     }
 }
