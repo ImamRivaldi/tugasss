@@ -10,11 +10,11 @@ package tugasss;
  * @author ACER
  */
 public class TransportUdara {
-    String jenis;
-    String kelas;
-    int jmlkursi;
-    int jmlawak;
-    String warna;
+    private String jenis;
+    private String kelas;
+    private int jmlkursi;
+    private int jmlawak;
+    private String warna;
     
     void cetakInfo(){
         System.out.println("Jenis\t: "+jenis+"\n"+"Kelas\t: "+kelas+"\n"+
