@@ -21,5 +21,16 @@ public class Aksi {
         TU.setWarna("Biru");
         
         TU.cetakInfo();
+        
+        System.out.print("Jenisnya \t: ");
+        System.out.println(TU.getJenis());
+        System.out.print("Kelasnya \t: ");
+        System.out.println(TU.getKelas());
+        System.out.print("Jumlah Kursinya \t: ");
+        System.out.println(TU.getJmlkursi());
+        System.out.print("Jumlah Awak Kabin \t: ");
+        System.out.println(TU.getJmlawak());
+        System.out.print("Warnanya \t: ");
+        System.out.println(TU.getWarna());
     }
 }
