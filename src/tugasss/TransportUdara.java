@@ -21,4 +21,45 @@ public class TransportUdara {
                 "Jumlah Kursi\t: "+jmlkursi+"\n"+"Jumlah Awak\t: "+jmlawak+"\n"+
                 "Warna\t: "+warna);
     }
+
+    public String getJenis() {
+        return jenis;
+    }
+
+    public void setJenis(String jenis) {
+        this.jenis = jenis;
+    }
+
+    public String getKelas() {
+        return kelas;
+    }
+
+    public void setKelas(String kelas) {
+        this.kelas = kelas;
+    }
+
+    public int getJmlkursi() {
+        return jmlkursi;
+    }
+
+    public void setJmlkursi(int jmlkursi) {
+        this.jmlkursi = jmlkursi;
+    }
+
+    public int getJmlawak() {
+        return jmlawak;
+    }
+
+    public void setJmlawak(int jmlawak) {
+        this.jmlawak = jmlawak;
+    }
+
+    public String getWarna() {
+        return warna;
+    }
+
+    public void setWarna(String warna) {
+        this.warna = warna;
+    }
+    
 }
