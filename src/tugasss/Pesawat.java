@@ -10,5 +10,9 @@ package tugasss;
  * @author ACER
  */
 public class Pesawat extends TransportUdara{
+    private String Maskapai;
     
+    void throttle(){
+        System.out.println("WUSHHHHHH.......;");
+    }
 }
