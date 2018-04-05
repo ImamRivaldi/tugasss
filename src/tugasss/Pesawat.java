@@ -15,4 +15,13 @@ public class Pesawat extends TransportUdara{
     void throttle(){
         System.out.println("WUSHHHHHH.......;");
     }
+
+    public String getMaskapai() {
+        return Maskapai;
+    }
+
+    public void setMaskapai(String Maskapai) {
+        this.Maskapai = Maskapai;
+    }
+    
 }
