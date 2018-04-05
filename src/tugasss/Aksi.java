@@ -13,11 +13,12 @@ public class Aksi {
     public static void main(String[] args) {
         TransportUdara TU = new TransportUdara();
         
-        TU.jenis = "Airbus 747";
-        TU.kelas = "First Class";
-        TU.jmlkursi = 30;
-        TU.jmlawak = 50;
-        TU.warna = "Putih Pink";
+        
+        TU.setJenis("Boing 777");
+        TU.setKelas("Economy");
+        TU.setJmlkursi(50);
+        TU.setJmlawak(100);
+        TU.setWarna("Biru");
         
         TU.cetakInfo();
     }
