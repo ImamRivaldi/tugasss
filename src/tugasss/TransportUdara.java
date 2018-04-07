@@ -17,9 +17,9 @@ public class TransportUdara {
     private String warna;
     
     void cetakInfo(){
-        System.out.println("Jenis\t: "+jenis+"\n"+"Kelas\t: "+kelas+"\n"+
+        System.out.println("Jenis\t\t: "+jenis+"\n"+"Kelas\t\t: "+kelas+"\n"+
                 "Jumlah Kursi\t: "+jmlkursi+"\n"+"Jumlah Awak\t: "+jmlawak+"\n"+
-                "Warna\t: "+warna);
+                "Warna\t\t: "+warna);
     }
 
     public String getJenis() {

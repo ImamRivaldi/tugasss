@@ -11,6 +11,7 @@ package tugasss;
  */
 public class Pesawat extends TransportUdara{
     private String Maskapai;
+    private int hargatiket;
     
     void throttle(){
         System.out.println("WUSHHHHHH.......");
@@ -22,6 +23,14 @@ public class Pesawat extends TransportUdara{
 
     public void setMaskapai(String Maskapai) {
         this.Maskapai = Maskapai;
+    }
+
+    public int getHargatiket() {
+        return hargatiket;
+    }
+
+    public void setHargatiket(int hargatiket) {
+        this.hargatiket = hargatiket;
     }
     
 }
